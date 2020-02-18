@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap");
+body {
+  background-size: 10px;
+}
+#navbar {
+  background-color: #ff3cac;
+  background-image: linear-gradient(
+    225deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #2b86c5 100%
+  );
+}
+#navbar ul a:hover {
+  color: rgb(0, 0, 0);
+}
+#navbar .nav-link {
+  color: #fff;
+}
+#navbar .navbar-brand {
+  color: #dbdf16;
+  font-family: "Merriweather", serif;
+  padding-right: 4rem;
+}
+#navbar-text {
+  padding-left: 30rem;
+}
+#navbar ul li {
+  font-family: "Merriweather", serif;
+  padding-left: 1.5rem;
+  font-size: large;
+}
+.parallax {
+  /* The image used */
+  background-image: url("./images/250472.jpg");
+  /* Set a specific height */
+  min-height: 7rem;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#primary-heading {
+  text-align: center;
+  padding: 2.5rem 0;
+  color: rgb(64, 236, 12);
+  font-family: "Merriweather", serif;
+  size: 8rem;
+  font-style: italic;
+}
+#cards .card-body {
+  background-color: #3eecac;
+  background-image: linear-gradient(19deg, #3eecac 0%, #ee74e1 100%);
+}
+#cards .card-title {
+  font-size: x-large;
+  color: rgb(0, 0, 2);
+  font-family: "Coda Caption", sans-serif;
+}
+#cards .card-text {
+  font-size: large;
+  color: rgb(233, 3, 3);
+  font-family: "Lobster", cursive;
+}
+.footer-copyright {
+  background-color: thistle;
+  font-size: x-large;
+}
